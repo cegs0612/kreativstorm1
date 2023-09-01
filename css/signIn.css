@@ -1,0 +1,65 @@
+@import url("./navbar-footer.css");
+@import url("./fonts.css");
+@import url("./general.css");
+
+main{
+    background-color: #e5e7eb;
+    height: calc(100vh - 140px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-in, .sign-up{
+    height: fit-content;
+    width: 25%;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 10px;
+    box-shadow: 5px 5px 5px #1f2937;
+}
+.sign-in form, .sign-up form{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    width: 80%;
+}
+form label, form input{
+    font-family: "roboto-regular";
+    font-size: 15px;
+}
+form h2{
+    font-family: "roboto-extra";
+    font-size: 20px;
+}
+form button{
+    background-color: #3882f6;
+    border-radius: 10px;
+    font-weight: bold;
+    padding: 5px 20px;
+    margin-top: 10px;
+    width: 100%;
+    font-family: 'roboto-regular',sans-serif;
+    font-size: 18px;
+    color:#e5e7eb;
+    text-decoration: none;
+}
+form button:hover{
+    background-color: #e5e7eb;
+    color: #1f2937;
+}
+.icons{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content:center;
+    column-gap: 25px;
+}
+.icons a{
+    width: 40px;
+}

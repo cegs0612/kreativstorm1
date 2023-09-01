@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="../css/contact.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@40,600,1,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@40,600,1,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@40,600,1,0" />
+</head>
+<body>
+    <header>
+        <div class="header">
+            <section class="logo">
+                <a href="/">
+                    <p>Header Logo</p>
+                </a>                
+            </section>
+            <section class="navbar">
+                <a href="./catalog.html">Catalog</a>
+                <a href="./about.html">About us</a>
+                <a href="./signIn.html">Sign in</a>
+            </section>
+        </div>
+    </header>
+    <main>
+        <section class="form-sec section">
+            <form action="" method="post">
+                <div class="form-row">
+                    <label for="name">Name:</label>
+                    <input type="text" id="form-name" name="name" placeholder="name" required>
+                </div>
+                <div class="form-row">
+                    <label for="mail">Email:</label>
+                    <input type="email" id="form-mail" name="mail" placeholder="name@mail.com" required>
+                </div>
+                <div class="form-row">
+                    <label for="phone">Phone:</label>
+                    <input type="tel" id="form-phone" name="phone" placeholder="">
+                </div>
+                <textarea name="message" id="form-message" cols="30" rows="10" placeholder="Leave a message"></textarea>
+                <div class="captcha">
+                    <input type="checkbox" id="captcha" name="captcha" required>
+                    <label for="captcha">I'm not a robot</label>
+                </div>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+        <section class="contact-info">
+            <h2>Contact us</h2>
+            <div class="contact-row">
+                <span class="material-symbols-rounded">call</span>
+                <a href="tel:+123456789">+1 234 456 789</a>
+            </div>
+            <div class="contact-row">
+                <span class="material-symbols-rounded">mail</span>
+                <a href="mailto:info@company.com">info@company.com</a>
+            </div>
+            <div class="contact-row">
+                <span class="material-symbols-rounded">location_on</span>
+                <address>123 Main St. Town, Country</address>
+            </div>
+            <div class="contact-row">
+                <h3>Opening hours</h3>
+                <ul>
+                    <li>Monday - Friday: 9:00 AM - 6:00 PM</li>
+                    <li>Saturdays: 10:00 AM - 4:00 PM</li>
+                    <li>Sundays: Closed</li>
+                </ul>
+            </div>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12345.67890!2d-71.060197!3d42.361145!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e370a4c6d851ad%3A0x903e0a23a88e88b3!2sEjemplo%20de%20Direcci%C3%B3n!5e0!3m2!1sen!2sus!4v1612345678901!5m2!1sen!2sus"
+                width="400"
+                height="300"
+                allowfullscreen=""
+                loading="lazy"></iframe>
+
+        </section>
+        <section class="social-media section">
+            <h2>Follow us</h2>
+            <a href="http://www.facebook.com" target="_blank">
+                <img src="../images/icons/facebook.svg" alt="facebook icon">
+            </a>
+            <a href="http://www.instagram.com" target="_blank">
+                <img src="../images/icons/instagram.svg" alt="instagram icon">
+            </a>
+            <a href="http://www.twitter.com" target="_blank">
+                <img src="../images/icons/x-twitter.svg" alt="x-twitter icon">
+            </a>
+        </section>
+    </main>
+    <footer>
+        <p>Copyright &copy;</p>
+    </footer>
+</body>
+</html>

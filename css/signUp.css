@@ -1,0 +1,11 @@
+@import url("./navbar-footer.css");
+@import url("./fonts.css");
+@import url("./general.css");
+
+main{
+    background-color: #e5e7eb;
+    height: calc(100vh - 140px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
